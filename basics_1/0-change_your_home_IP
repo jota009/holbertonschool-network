@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script that configures localhost and facebook.com resolution
+
+# Backup the original hosts file
+cp /etc/hosts /etc/hosts.backup
+
+# Remove any existing localhost and facebook.com entries
+
+sed -i '/localhost/d' /etc/hosts
+sed -i 'facebook.com.d' /etc/hosts
+
+# Add our custom entries
+echo "127.0.0.2	localhost" >> /etc/hosts
+echo "8.8.8.8	facebook.com" >> /etc/hosts
