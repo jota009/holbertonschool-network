@@ -24,13 +24,4 @@ graph TD
 
     J --> K["✅ Browser Renders<br/>Google Search Page<br/>Total Time: ~500ms"]
 
-    style B fill:#e3f2fd
-    style C fill:#fff3e0
-    style D fill:#f3e5f5
-    style E fill:#ffcdd2
-    style F fill:#ffecb3
-    style G fill:#c8e6c9
-    style H fill:#b2ebf2
-    style I fill:#d1c4e9
-    style J fill:#f3e5f5
-    style K fill:#c8e6c9
+   
